@@ -85,4 +85,4 @@ Attending the "Meeting 30/5" event was an extremely valuable experience, giving 
 - **Developing soft skills:** Recognized the importance of confidence, teamwork skills, and especially how to face fear in order to overcome procrastination.
 - **Hands-on technical experience:** Learned how to optimize AWS learning through Cloud Quest and Floci, as well as how to look at a problem holistically before implementation, using DevOps's iceberg model.
 
-![Picture meeting 30/5](./images/4-Event/meeting30-5.png)
+![Picture meeting 30/5](/images/meeting30-5.png)

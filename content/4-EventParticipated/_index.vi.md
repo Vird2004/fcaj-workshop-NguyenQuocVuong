@@ -36,4 +36,3 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 
 &emsp;**Kết quả đạt được:** Nâng cao kiến thức kỹ thuật về containerization, bảo mật tự động và kiến trúc multiplayer thời gian thực; cập nhật xu hướng AI mới về GraphRAG; và có thêm định hướng nghề nghiệp cùng kỹ năng làm việc nhóm áp dụng được cho các dự án sau này.
 
-![Ảnh meeting 13/06](/images/4-Event/meeting13-06.png)
