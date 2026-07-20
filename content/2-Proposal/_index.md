@@ -8,6 +8,8 @@ pre: " <b> 2. </b> "
 
 # LunaGenZ - Serverless Numerology Web Application
 
+Link website: https://www.lunagenz.sbs/
+
 ### 1. Project Overview
 LunaGenZ is a Numerology & Lenormand application platform built for young people, allowing users to look up personalized metrics based on their date of birth and full name. It can also be used to check metrics for friends, relatives, or even romantic interests and crushes. The system automatically generates a detailed report in PDF format and sends it directly via email to the user.
 The project is built on a **100% AWS Serverless** architecture to ensure flexibility, automatic scalability, and cost optimization.
