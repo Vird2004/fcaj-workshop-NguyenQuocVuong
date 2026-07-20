@@ -1,126 +1,88 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-05-30
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: "Meeting 30/5"
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Share best practices for work and the working environment
+- Introduce methods for overcoming laziness and building confidence at work
+- Introduce how to learn AWS
+- Introduce the "Tu Vi Dai Viet" (Great Vietnam Astrology) website
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Tran Minh Quan** – The Hidden Iceberg of a Project: DevOps Before Disaster
+- **Tran Huu Nghia** – A comprehensive astrology platform for the new generation, combining traditional knowledge with modern technology
+- **Pham Quang Thai** – How Cloud Architecture Powers Modern Multiplayer Games
+- **Nguyen Thi Quynh Nhu** – Why We Always Need Confidence
+- **Khac Uy** – The Iceberg of Procrastination When "Laziness" Is Just the Tip of Fear
+- **Huynh Thai Linh** – Level Up Your AWS Skills with Cloud Quest and Floci
+- **The Baller** – Hackathon – More like "HA! A tons, of fun"
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### The Hidden Iceberg of a Project: DevOps Before Disaster
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- Difficulties encountered while working on the project
+- How the speaker overcame them
+- Lessons learned
 
-#### Transitioning to modern application architecture – Microservices
+#### A comprehensive astrology platform for the new generation, combining traditional knowledge with modern technology
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Introduction to the Tu Vi Dai Viet website
+- Reasons for choosing this topic
+- Features of the website
+- Architecture, logic, and layers of the website
+- Lessons and experience
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### How Cloud Architecture Powers Modern Multiplayer Games
 
-#### Domain-Driven Design (DDD)
+- Applying Cloud Architecture to multiplayer games
+- How to design systems with low latency and high reliability
+- Solutions for real-time data synchronization between players
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Why We Always Need Confidence
 
-#### Event-Driven Architecture
+- Confidence is not ego or perfection, but the courage to try even while feeling anxious.
+- Consequences of lacking confidence: missed opportunities, invisible pressure, hidden talent.
+- Root causes: Imposter Syndrome and the Dunning-Kruger Effect.
+- The role of confidence: connecting people, daring to take responsibility, and serving as the bridge that lets technical skills shine.
+- How to "hack" confidence: thorough preparation to reduce fear, celebrating small wins, and applying the "5-Second Rule".
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### The Iceberg of Procrastination When "Laziness" Is Just the Tip of Fear
 
-#### Compute Evolution
+- The nature of procrastination: 20-30% is laziness, 70-80% is fear (fear of not being good enough, fear of judgment, fear of failure).
+- The cost of procrastination (The Guilt Loop): avoiding work -> temporary relief -> more stress -> more procrastination.
+- The solution: action creates confidence (Action > Confidence).
+- The 5-Minute Rule: just start for 5 minutes to build momentum.
+- The "Go Build" spirit: deploy quickly, fix errors early, don't wait for perfection.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### Level Up Your AWS Skills with Cloud Quest and Floci
 
-#### Amazon Q Developer
+- Challenges of hands-on AWS learning (cost concerns, forgetting to delete resources).
+- Introducing AWS Cloud Quest: learn AWS through gameplay, free and safe for beginners.
+- Introducing the open-source tool Floci: simulates AWS services locally, free of charge and fast.
+- An effective learning path: Cloud Quest (mindset) -> Floci (fast coding & testing) -> Real AWS (real-world deployment).
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+#### Hackathon – More like "HA! A tons, of fun"
 
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- What a hackathon is: an event to solve real-world problems by building a minimum viable product (MVP) in a short time (24-48h).
+- Why participate: learning by doing, real project experience, networking, and creativity.
+- Experience participating in the SynthHunter project (an AI audio classification system) and Vortex (a recruitment system).
+- Lessons learned: start from a real problem, persevere through difficulties, keep experimenting, and make the most of available tools.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the "Meeting 30/5" event was an extremely valuable experience, giving me a more comprehensive view of both soft skills and practical technical knowledge:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- **Learning from highly skilled speakers:** Gained a better understanding of modern cloud architectures and how to deploy real-world projects through case studies such as "Tu Vi Dai Viet," the Hackathon, and multiplayer games.
+- **Developing soft skills:** Recognized the importance of confidence, teamwork skills, and especially how to face fear in order to overcome procrastination.
+- **Hands-on technical experience:** Learned how to optimize AWS learning through Cloud Quest and Floci, as well as how to look at a problem holistically before implementation, using DevOps's iceberg model.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Picture meeting 30/5](/images/4-Event/meeting30-5.png)

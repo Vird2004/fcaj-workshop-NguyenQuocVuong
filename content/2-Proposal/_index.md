@@ -1,115 +1,60 @@
 ---
-title: "Proposal"
-date: 2024-01-01
+title: "Project Proposal"
+date: 2026-04-18
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
+# LunaGenZ - Serverless Numerology Web Application
 
-# IoT Weather Platform for Lab Research
-## A Unified AWS Serverless Solution for Real-Time Weather Monitoring
+### 1. Project Overview
+LunaGenZ is a Numerology & Lenormand application platform built for young people, allowing users to look up personalized metrics based on their date of birth and full name. It can also be used to check metrics for friends, relatives, or even romantic interests and crushes. The system automatically generates a detailed report in PDF format and sends it directly via email to the user.
+The project is built on a **100% AWS Serverless** architecture to ensure flexibility, automatic scalability, and cost optimization.
 
-### 1. Executive Summary
-The IoT Weather Platform is designed for the ITea Lab team in Ho Chi Minh City to enhance weather data collection and analysis. It supports up to 5 weather stations, with potential scalability to 10-15, utilizing Raspberry Pi edge devices with ESP32 sensors to transmit data via MQTT. The platform leverages AWS Serverless services to deliver real-time monitoring, predictive analytics, and cost efficiency, with access restricted to 5 lab members via Amazon Cognito.
+### 2. Objectives
+- **Desired Output:** A fully functional website that allows users to input their information, after which the system generates a PDF numerology report and emails it.
+- **Success Criteria:** The system operates smoothly end-to-end (from frontend to backend), scales automatically during high traffic, and maintains minimal monthly maintenance costs (leveraging the Free Tier).
 
-### 2. Problem Statement
-### What’s the Problem?
-Current weather stations require manual data collection, becoming unmanageable with multiple units. There is no centralized system for real-time data or analytics, and third-party platforms are costly and overly complex.
+### 3. Problem to Solve
+The current market has many fortune-telling and numerology applications, but most require upfront payment or have designs that are not youth-friendly (Gen Z). Integrating Generative AI poses uncontrollable cost risks for an MVP project and increases latency when generating reports. LunaGenZ solves this problem by using a fast, free, and stable internal PDF generation system based on Serverless architecture.
 
-### The Solution
-The platform uses AWS IoT Core to ingest MQTT data, AWS Lambda and API Gateway for processing, Amazon S3 for storage (including a data lake), and AWS Glue Crawlers and ETL jobs to extract, transform, and load data from the S3 data lake to another S3 bucket for analysis. AWS Amplify with Next.js provides the web interface, and Amazon Cognito ensures secure access. Similar to Thingsboard and CoreIoT, users can register new devices and manage connections, though this platform operates on a smaller scale and is designed for private use. Key features include real-time dashboards, trend analysis, and low operational costs.
+### 4. Solution Architecture
+- **AWS Amplify:** Hosting for the Next.js web application with automatic CI/CD.
+- **Amazon API Gateway:** Acts as the gateway receiving HTTP requests from the Frontend.
+- **AWS Lambda:** Runs the numerology calculation logic, renders the PDF file, and triggers the email sending process.
+- **Amazon DynamoDB:** Stores customer lookup history.
+- **Amazon S3:** Safely stores the exported PDF report files.
+- **Amazon SES:** Automatically sends emails with the attached reports.
 
-### Benefits and Return on Investment
-The solution establishes a foundational resource for lab members to develop a larger IoT platform, serving as a study resource, and provides a data foundation for AI enthusiasts for model training or analysis. It reduces manual reporting for each station via a centralized platform, simplifying management and maintenance, and improves data reliability. Monthly costs are $0.66 USD per the AWS Pricing Calculator, with a 12-month total of $7.92 USD. All IoT equipment costs are covered by the existing weather station setup, eliminating additional development expenses. The break-even period of 6-12 months is achieved through significant time savings from reduced manual work.
+### 5. Timeline
+- **Weeks 1 - 5:** Learn AWS architecture, participate in onboarding, set up accounts, practice basic services (VPC, EC2, IAM, S3).
+- **Weeks 6 - 8:** Advanced research on CloudFront, RDS, AutoScaling, and CloudWatch.
+- **Weeks 9 - 10:** Start developing the LunaGenZ project, delegate tasks, write Frontend (Next.js) and Backend (Node.js) code.
+- **Week 11:** Finalize integration, test end-to-end flow, and officially deploy to AWS infrastructure.
+- **Week 12:** Write internship reports, build workshop documentation.
 
-### 3. Solution Architecture
-The platform employs a serverless AWS architecture to manage data from 5 Raspberry Pi-based stations, scalable to 15. Data is ingested via AWS IoT Core, stored in an S3 data lake, and processed by AWS Glue Crawlers and ETL jobs to transform and load it into another S3 bucket for analysis. Lambda and API Gateway handle additional processing, while Amplify with Next.js hosts the dashboard, secured by Cognito. The architecture is detailed below:
+### 6. Estimated Budget (MVP Phase)
 
-![IoT Weather Station Architecture](/images/2-Proposal/edge_architecture.jpeg)
+The system is designed entirely on a **Serverless** architecture, which thoroughly optimizes infrastructure costs. By avoiding the use of 24/7 running servers (such as EC2), the project completely eliminates idle costs.
 
-![IoT Weather Platform Architecture](/images/2-Proposal/platform_architecture.jpeg)
+During the MVP (Minimum Viable Product) phase, the entire processing flow is designed to fit well within the limits of the **AWS Free Tier**. Below is a detailed breakdown of resource usage:
 
-### AWS Services Used
-- **AWS IoT Core**: Ingests MQTT data from 5 stations, scalable to 15.
-- **AWS Lambda**: Processes data and triggers Glue jobs (two functions).
-- **Amazon API Gateway**: Facilitates web app communication.
-- **Amazon S3**: Stores raw data in a data lake and processed outputs (two buckets).
-- **AWS Glue**: Crawlers catalog data, and ETL jobs transform and load it.
-- **AWS Amplify**: Hosts the Next.js web interface.
-- **Amazon Cognito**: Secures access for lab users.
+| AWS Service | Role in Architecture | AWS Free Tier Limit (Monthly) | Estimated Cost |
+| :--- | :--- | :--- | :--- |
+| **AWS Amplify** | Hosting and automated Frontend deployment | 1,000 build minutes, 5GB storage, 15GB bandwidth | **$0** |
+| **Amazon API Gateway** | API routing gateway (REST/HTTP API) | 1,000,000 Requests | **$0** |
+| **AWS Lambda** | Computing environment (Logic & Report) | 1,000,000 requests & 400,000 GB-seconds compute | **$0** |
+| **Amazon DynamoDB** | Database storing user history and IP | 25GB storage, 25 WCU & 25 RCU | **$0** |
+| **Amazon S3** | Storage for PDF/JSON result documents | 5GB standard storage, 20,000 GET requests | **$0** |
+| **Amazon SES** | Automated notification Email system | 3,000 emails (12-month free tier) | **$0** |
 
-### Component Design
-- **Edge Devices**: Raspberry Pi collects and filters sensor data, sending it to IoT Core.
-- **Data Ingestion**: AWS IoT Core receives MQTT messages from the edge devices.
-- **Data Storage**: Raw data is stored in an S3 data lake; processed data is stored in another S3 bucket.
-- **Data Processing**: AWS Glue Crawlers catalog the data, and ETL jobs transform it for analysis.
-- **Web Interface**: AWS Amplify hosts a Next.js app for real-time dashboards and analytics.
-- **User Management**: Amazon Cognito manages user access, allowing up to 5 active accounts.
+**Total Estimated Cost: ~$0/month**
 
-### 4. Technical Implementation
-**Implementation Phases**
-This project has two parts—setting up weather edge stations and building the weather platform—each following 4 phases:
-- Build Theory and Draw Architecture: Research Raspberry Pi setup with ESP32 sensors and design the AWS serverless architecture (1 month pre-internship)
-- Calculate Price and Check Practicality: Use AWS Pricing Calculator to estimate costs and adjust if needed (Month 1).
-- Fix Architecture for Cost or Solution Fit: Tweak the design (e.g., optimize Lambda with Next.js) to stay cost-effective and usable (Month 2).
-- Develop, Test, and Deploy: Code the Raspberry Pi setup, AWS services with CDK/SDK, and Next.js app, then test and release to production (Months 2-3).
-
-**Technical Requirements**
-- Weather Edge Station: Sensors (temperature, humidity, rainfall, wind speed), a microcontroller (ESP32), and a Raspberry Pi as the edge device. Raspberry Pi runs Raspbian, handles Docker for filtering, and sends 1 MB/day per station via MQTT over Wi-Fi.
-- Weather Platform: Practical knowledge of AWS Amplify (hosting Next.js), Lambda (minimal use due to Next.js), AWS Glue (ETL), S3 (two buckets), IoT Core (gateway and rules), and Cognito (5 users). Use AWS CDK/SDK to code interactions (e.g., IoT Core rules to S3). Next.js reduces Lambda workload for the fullstack web app.
-
-### 5. Timeline & Milestones
-**Project Timeline**
-- Pre-Internship (Month 0): 1 month for planning and old station review.
-- Internship (Months 1-3): 3 months.
-    - Month 1: Study AWS and upgrade hardware.
-    - Month 2: Design and adjust architecture.
-    - Month 3: Implement, test, and launch.
-- Post-Launch: Up to 1 year for research.
-
-### 6. Budget Estimation
-You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01).  
-Or you can download the [Budget Estimation File](../attachments/budget_estimation.pdf).
-
-### Infrastructure Costs
-- AWS Services:
-    - AWS Lambda: $0.00/month (1,000 requests, 512 MB storage).
-    - S3 Standard: $0.15/month (6 GB, 2,100 requests, 1 GB scanned).
-    - Data Transfer: $0.02/month (1 GB inbound, 1 GB outbound).
-    - AWS Amplify: $0.35/month (256 MB, 500 ms requests).
-    - Amazon API Gateway: $0.01/month (2,000 requests).
-    - AWS Glue ETL Jobs: $0.02/month (2 DPUs).
-    - AWS Glue Crawlers: $0.07/month (1 crawler).
-    - MQTT (IoT Core): $0.08/month (5 devices, 45,000 messages).
-
-Total: $0.7/month, $8.40/12 months
-
-- Hardware: $265 one-time (Raspberry Pi 5 and sensors).
-
-### 7. Risk Assessment
-#### Risk Matrix
-- Network Outages: Medium impact, medium probability.
-- Sensor Failures: High impact, low probability.
-- Cost Overruns: Medium impact, low probability.
-
-#### Mitigation Strategies
-- Network: Local storage on Raspberry Pi with Docker.
-- Sensors: Regular checks and spares.
-- Cost: AWS budget alerts and optimization.
-
-#### Contingency Plans
-- Revert to manual methods if AWS fails.
-- Use CloudFormation for cost-related rollbacks.
-
-### 8. Expected Outcomes
-#### Technical Improvements: 
-Real-time data and analytics replace manual processes.  
-Scalable to 10-15 stations.
-#### Long-term Value
-1-year data foundation for AI research.  
-Reusable for future projects.
+### 7. Risks
+- **Risk 1:** Amazon SES email sending limit due to the account being in Sandbox mode.
+  - *Solution:* Submit a ticket to AWS Support to request removal from the Sandbox. Meanwhile, use Google's Nodemailer as a fallback. Implement a try-catch block to use SES if approved; otherwise, it will automatically fall back to Nodemailer.
+- **Risk 2:** AWS Lambda "Cold Start" issue when the system has no requests for a long period.
+  - *Solution:* Optimize code and use lightweight PDF generation libraries to minimize initialization time.
+- **Risk 3:** The AWS account has not been permitted to use the AWS Bedrock service, or a support ticket was written but has not yet been approved.
+  - *Solution:* Use external AI APIs as a fallback instead of Bedrock while waiting for permission approval.
