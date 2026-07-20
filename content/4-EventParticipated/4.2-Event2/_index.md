@@ -76,3 +76,5 @@ Attending the "Meeting 06/6" event broadened my perspective on applying advanced
 - **Keeping up with AI trends:** I understood the power of GraphRAG in enhancing AI's analysis and response capabilities through Amazon Bedrock and Neptune.
 - **Career direction:** The journey from Helpdesk to Senior Sysadmin was truly inspiring, helping me realize the importance of building capability through real-world projects.
 - **Soft skills:** The principles of effective teamwork are essential tools for complex technology projects.
+
+![Picture meeting 13/06](./images/4-Event/meeting13-06.png)
