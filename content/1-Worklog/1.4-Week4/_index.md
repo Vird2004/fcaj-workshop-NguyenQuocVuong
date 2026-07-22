@@ -11,9 +11,12 @@ pre: " <b> 1.4. </b> "
 * Complete the assigned tasks for week 4.
 
 ### Tasks to be carried out this week:
-| Time | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| All week | - Continue exploring AWS services.<br> - Learn Module 02-03: VPN, DirectConnect, Load Balancer and extended resources.<br> - Learn Module 02-Lab03-01: Introduction to Amazon VPC and AWS Site-to-Site VPN, including Subnets, Route table, Internet Gateway (IGW), NAT Gateway.<br> - Start registering to work at the company office. | 09/05/2026 | 15/05/2026 | |
+| Monday | - Continue exploring AWS services. | 11/05/2026 | 11/05/2026 | |
+| Tuesday | - Learn Module 02-03: VPN, DirectConnect, Load Balancer and extended resources. | 12/05/2026 | 12/05/2026 | |
+| Wednesday | - Learn Module 02-Lab03-01: Introduction to Amazon VPC and AWS Site-to-Site VPN, including Subnets, Route table, Internet Gateway (IGW), NAT Gateway. | 13/05/2026 | 13/05/2026 | |
+| Thursday | - Start registering to work at the company office. | 14/05/2026 | 14/05/2026 | |
 
 ### Week 4 Results:
 

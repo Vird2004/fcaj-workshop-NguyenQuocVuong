@@ -11,9 +11,12 @@ pre: " <b> 1.8. </b> "
 * Complete the assigned tasks for week 8.
 
 ### Tasks to be carried out this week:
-| Time | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| All week | - Learn to create database with Amazon RDS.<br> - Learn to optimize compute cost with Amazon Lightsail.<br> - Learn Automate Application Scaling with Amazon EC2 Autoscaling.<br> - Learn to create monitoring system with Amazon CloudWatch. | 06/06/2026 | 12/06/2026 | |
+| Monday | - Learn to create database with Amazon RDS. | 08/06/2026 | 08/06/2026 | |
+| Tuesday | - Learn to optimize compute cost with Amazon Lightsail. | 09/06/2026 | 09/06/2026 | |
+| Wednesday | - Learn Automate Application Scaling with Amazon EC2 Autoscaling. | 10/06/2026 | 10/06/2026 | |
+| Thursday | - Learn to create monitoring system with Amazon CloudWatch. | 11/06/2026 | 11/06/2026 | |
 
 ### Week 8 Results:
 

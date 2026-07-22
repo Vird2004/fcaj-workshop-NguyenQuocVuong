@@ -11,9 +11,13 @@ pre: " <b> 1.1. </b> "
 * Complete the assigned tasks for week 1.
 
 ### Tasks to be carried out this week:
-| Time | Task | Start Date | Completion Date | Reference Material |
-| --- | --- | --- | --- | --- |
-| All week | - Find and form an internship group.<br> - Group meeting to deploy the LunaGenZ project.<br> - Learn to draw AWS architecture on draw.io.<br> - Participate in AWS workshop (company's YouTube channel). | 18/04/2026 | 24/04/2026 | |
+| Day | Task | Start Date | Completion Date | Reference Material |
+|---|---|---|---|---|
+| Friday | - Find members and form an internship group. | 17/04/2026 | 17/04/2026 | |
+| Monday | - Group meeting to deploy the LunaGenZ project, brainstorm initial ideas. | 20/04/2026 | 20/04/2026 | |
+| Tuesday | - Register teamwork tools, explore the AWS platform. | 21/04/2026 | 21/04/2026 | |
+| Wednesday | - Learn and practice drawing AWS system architecture on draw.io. | 22/04/2026 | 22/04/2026 | |
+| Thursday | - Participate in AWS workshop via the company's YouTube channel. | 23/04/2026 | 23/04/2026 | |
 
 ### Week 1 Results:
 

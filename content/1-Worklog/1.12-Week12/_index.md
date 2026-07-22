@@ -11,9 +11,10 @@ pre: " <b> 1.12. </b> "
 * Complete the assigned tasks for week 12.
 
 ### Tasks to be carried out this week:
-| Time | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| All week | - Write the internship report.<br> - Support company events. | 04/07/2026 | 12/07/2026 | |
+| Monday | - Write the internship report. | 06/07/2026 | 06/07/2026 | |
+| Tuesday | - Support company events. | 07/07/2026 | 07/07/2026 | |
 
 ### Week 12 Results:
 

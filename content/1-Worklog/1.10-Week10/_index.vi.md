@@ -11,9 +11,11 @@ pre: " <b> 1.10. </b> "
 * Hoàn thành các công việc được giao trong tuần 10.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thời gian | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Cả tuần | - Bắt đầu làm và hoàn thiện mở đầu project LunaGenZ.<br> - Phân công giao việc cho các bạn trong nhóm.<br> - Làm phần back-end của project, test ở localhost trước rồi sau đó mới deploy lên AWS | 20/06/2026 | 26/06/2026 | |
+| 2 | - Bắt đầu làm và hoàn thiện mở đầu project LunaGenZ. | 22/06/2026 | 22/06/2026 | |
+| 3 | - Phân công giao việc cho các bạn trong nhóm. | 23/06/2026 | 23/06/2026 | |
+| 4 | - Làm phần back-end của project, test ở localhost trước rồi sau đó mới deploy lên AWS | 24/06/2026 | 24/06/2026 | |
 
 ### Kết quả đạt được tuần 10:
 

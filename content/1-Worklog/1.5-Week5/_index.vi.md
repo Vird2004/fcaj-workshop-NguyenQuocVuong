@@ -11,9 +11,12 @@ pre: " <b> 1.5. </b> "
 * Hoàn thành các công việc được giao trong tuần 5.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thời gian | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Cả tuần | - Học Security Group, Network ACLs và VPC Resource Map.<br> - Học tạo VPC, Subnet, Internet Gateway, Route Table và Security Group.<br> - Học tạo EC2 Instance trong Subnet, kiểm tra kết nối và NAT Gateway.<br> - Được duyệt lên văn phòng công ty làm việc. | 16/05/2026 | 22/05/2026 | |
+| 2 | - Học Security Group, Network ACLs và VPC Resource Map. | 18/05/2026 | 18/05/2026 | |
+| 3 | - Học tạo VPC, Subnet, Internet Gateway, Route Table và Security Group. | 19/05/2026 | 19/05/2026 | |
+| 4 | - Học tạo EC2 Instance trong Subnet, kiểm tra kết nối và NAT Gateway. | 20/05/2026 | 20/05/2026 | |
+| 5 | - Được duyệt lên văn phòng công ty làm việc. | 21/05/2026 | 21/05/2026 | |
 
 ### Kết quả đạt được tuần 5:
 

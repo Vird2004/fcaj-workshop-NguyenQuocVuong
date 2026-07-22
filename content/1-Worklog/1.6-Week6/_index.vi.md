@@ -11,9 +11,10 @@ pre: " <b> 1.6. </b> "
 * Hoàn thành các công việc được giao trong tuần 6.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thời gian | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Cả tuần | - Được duyệt lên văn phòng công ty làm việc.<br> - Học quản lý truy cập với AWS IAM | 23/05/2026 | 29/05/2026 | |
+| 2 | - Được duyệt lên văn phòng công ty làm việc. | 25/05/2026 | 25/05/2026 | |
+| 3 | - Học quản lý truy cập với AWS IAM | 26/05/2026 | 26/05/2026 | |
 
 ### Kết quả đạt được tuần 6:
 

@@ -11,9 +11,12 @@ pre: " <b> 1.8. </b> "
 * Hoàn thành các công việc được giao trong tuần 8.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thời gian | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Cả tuần | - Học tạo database với Amazon RDS.<br> - Học tối ưu chi phí compute với Amazon Lightsail.<br> - Học Automate Application Scaling với Amazon EC2 Autoscaling.<br> - Học tạo hệ thống giám sát với Amazon CloudWatch. | 06/06/2026 | 12/06/2026 | |
+| 2 | - Học tạo database với Amazon RDS. | 08/06/2026 | 08/06/2026 | |
+| 3 | - Học tối ưu chi phí compute với Amazon Lightsail. | 09/06/2026 | 09/06/2026 | |
+| 4 | - Học Automate Application Scaling với Amazon EC2 Autoscaling. | 10/06/2026 | 10/06/2026 | |
+| 5 | - Học tạo hệ thống giám sát với Amazon CloudWatch. | 11/06/2026 | 11/06/2026 | |
 
 ### Kết quả đạt được tuần 8:
 

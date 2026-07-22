@@ -11,9 +11,10 @@ pre: " <b> 1.11. </b> "
 * Hoàn thành các công việc được giao trong tuần 11.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thời gian | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Cả tuần | - Hoàn thành đề tài workshop.<br> - Deloy thành công website. | 27/06/2026 | 03/07/2026 | |
+| 2 | - Hoàn thành đề tài workshop. | 29/06/2026 | 29/06/2026 | |
+| 3 | - Deloy thành công website. | 30/06/2026 | 30/06/2026 | |
 
 ### Kết quả đạt được tuần 11:
 

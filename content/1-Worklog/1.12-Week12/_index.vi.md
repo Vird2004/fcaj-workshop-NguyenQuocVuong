@@ -11,9 +11,10 @@ pre: " <b> 1.12. </b> "
 * Hoàn thành các công việc được giao trong tuần 12.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thời gian | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Cả tuần | - Viết báo cáo thực tập.<br> - Hỗ trợ event trong công ty. | 04/07/2026 | 12/07/2026 | |
+| 2 | - Viết báo cáo thực tập. | 06/07/2026 | 06/07/2026 | |
+| 3 | - Hỗ trợ event trong công ty. | 07/07/2026 | 07/07/2026 | |
 
 ### Kết quả đạt được tuần 12:
 

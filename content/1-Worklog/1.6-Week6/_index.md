@@ -11,9 +11,10 @@ pre: " <b> 1.6. </b> "
 * Complete the assigned tasks for week 6.
 
 ### Tasks to be carried out this week:
-| Time | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| All week | - Approved to work at the company office.<br> - Learn access management with AWS IAM. | 23/05/2026 | 29/05/2026 | |
+| Monday | - Approved to work at the company office. | 25/05/2026 | 25/05/2026 | |
+| Tuesday | - Learn access management with AWS IAM. | 26/05/2026 | 26/05/2026 | |
 
 ### Week 6 Results:
 

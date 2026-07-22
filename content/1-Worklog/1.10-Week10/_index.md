@@ -11,9 +11,11 @@ pre: " <b> 1.10. </b> "
 * Complete the assigned tasks for week 10.
 
 ### Tasks to be carried out this week:
-| Time | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| All week | - Start and complete the initial part of the LunaGenZ project.<br> - Delegate tasks to group members.<br> - Work on the back-end of the project, test on localhost before deploying to AWS. | 20/06/2026 | 26/06/2026 | |
+| Monday | - Start and complete the initial part of the LunaGenZ project. | 22/06/2026 | 22/06/2026 | |
+| Tuesday | - Delegate tasks to group members. | 23/06/2026 | 23/06/2026 | |
+| Wednesday | - Work on the back-end of the project, test on localhost before deploying to AWS. | 24/06/2026 | 24/06/2026 | |
 
 ### Week 10 Results:
 

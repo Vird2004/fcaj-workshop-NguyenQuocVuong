@@ -11,9 +11,12 @@ pre: " <b> 1.5. </b> "
 * Complete the assigned tasks for week 5.
 
 ### Tasks to be carried out this week:
-| Time | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| All week | - Learn Security Group, Network ACLs and VPC Resource Map.<br> - Learn to create VPC, Subnet, Internet Gateway, Route Table and Security Group.<br> - Learn to create EC2 Instance in Subnet, check connectivity and NAT Gateway.<br> - Approved to work at the company office. | 16/05/2026 | 22/05/2026 | |
+| Monday | - Learn Security Group, Network ACLs and VPC Resource Map. | 18/05/2026 | 18/05/2026 | |
+| Tuesday | - Learn to create VPC, Subnet, Internet Gateway, Route Table and Security Group. | 19/05/2026 | 19/05/2026 | |
+| Wednesday | - Learn to create EC2 Instance in Subnet, check connectivity and NAT Gateway. | 20/05/2026 | 20/05/2026 | |
+| Thursday | - Approved to work at the company office. | 21/05/2026 | 21/05/2026 | |
 
 ### Week 5 Results:
 
